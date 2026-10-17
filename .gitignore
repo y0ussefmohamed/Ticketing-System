@@ -1,0 +1,29 @@
+# Generated build output
+**/target/
+**/build/
+*.class
+
+# Local IDE and operating-system files
+**/.idea/
+**/.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Database state, logs, and key material
+**/volume-data/
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Local configuration: publish the examples alongside these files
+**/src/main/resources/application.properties
+/Inventory Service/docker-compose.yml
+/Inventory Service/docker/keycloak/realms/*.json
+.env
+.env.*
+!.env.example
